@@ -6,7 +6,7 @@ const Navbar = () => {
   const [activeNav, setActiveNav] = useState ('#')
 
   return (
-    <nav className='bg-white h-[144px] px-[72px] flex justify-between items-center '>
+    <nav className='bg-white h-[144px] px-[72px] flex justify-between items-center max-xmd:p-[20px] max-xl:hidden '>
       <div>
       <Image className='w-full' src={"footerlogo.svg"} width={0} height={200} alt="Quick pay logo"/>
       </div>

@@ -7,8 +7,11 @@ body {
 }
 
 @layer components {
+  .bg-gradient{
+    @apply bg-gradient-to-r from-[#CDE6F3] via-[#F8F8F9] to-[#F8F8F9]
+  }
   .nav-links {
-    @apply   w-fit relative after:absolute block  after:block after:content-[''] after:h-[3px] after:w-[24px] after:bg-[#0045A5]  after:scale-x-[0] hover:after:scale-x-100 after:rounded-[20px] text-lg after:transition after:duration-300 after:origin-center after:left-[30%]  hover:text-[#0045A5];
+    @apply   w-fit relative after:absolute block  after:block after:content-[''] after:h-[3px] after:w-[24px] after:bg-[#0045A5]  after:scale-x-[0] hover:after:scale-x-100 after:rounded-[20px]  after:transition after:duration-300 after:origin-center after:left-[30%]  hover:text-[#0045A5];
     }
     .nav-active{
       @apply relative text-[#0045A5] w-fit block after:block after:content-[""] after:absolute after:h-[3px] after:bg-[#0045A5] after:w-[24px] after:scale-x-100 after:left-[30%];
