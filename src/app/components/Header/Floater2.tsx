@@ -14,7 +14,6 @@ const Floater2 = ({ refresh2 }:any) => {
               setBoxes((prevBoxes) => {
             const newBoxes = [...prevBoxes];
             newBoxes[index] = true;
-            console.log(newBoxes)
             return newBoxes;
           });
         }, (index + 1) * 1000);

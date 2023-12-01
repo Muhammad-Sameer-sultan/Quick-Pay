@@ -24,11 +24,10 @@ const Header = () => {
     
 
   return (
-    // <div  className='relative h-[830px] max-lg:h-[1300px]   max-xsm:h-[920px]'>
 
-    <div className=' relative h-[830px] max-lg:h-[1300px] max-xsm:h-[920]'>
-        {/* <div className={`absolute top-0 w-full ${showSlide1?'opacity-1':"opacity-0"}`}><FirstSlide/></div> */}
-        <div className={` absolute top-0 w-full ${true?'opacity-1':"opacity-0"}`}><SecondSlide/></div>
+    <div className=' relative h-[830px] max-lg:h-[1300px] max-xsm:h-[920px]'>
+        <div className={`absolute top-0 w-full ${showSlide1?'opacity-1':"opacity-0"}`}><FirstSlide/></div>
+        <div className={` absolute top-0 w-full ${showSlide2?'opacity-1':"opacity-0"}`}><SecondSlide/></div>
     </div>
   )
 }

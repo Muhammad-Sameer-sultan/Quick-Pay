@@ -23,11 +23,11 @@ const Floaters = () => {
       };
     }, [refresh, refresh2]);
   return (
-    <div className="relative h-[500px] bg-[rgba(0,0,0,0.05)] w-full">
-      {/* <div className={`absolute w-full top-0 ${refresh ? 'block' : 'hidden'}`}>
+    <div className="relative h-[500px]  w-full">
+      <div className={`absolute w-full top-0 ${refresh ? 'block' : 'hidden'}`}>
         <Floater refresh={refresh}/>
-      </div> */}
-      <div className={`relative top-0 ${true ? 'block' : 'hidden'}`}>
+      </div>
+      <div className={`relative top-0 ${refresh2 ? 'block' : 'hidden'}`}>
         <Floater2 refresh2={refresh2} />
       </div>
     </div>

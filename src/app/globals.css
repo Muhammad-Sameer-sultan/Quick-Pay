@@ -263,7 +263,7 @@ display: block;
 }
 
 @keyframes companyDisplay2 {
-  0%,25%,100%{
+  0%,25%,75%,100%{
     opacity: 0;
 }
 50%{
