@@ -19,7 +19,7 @@ const Header = () => {
         setrefresh(!refresh)
         setShowSlide1(true)     
         setShowSlide2(false)
-}, 8000);
+}, 18000);
     }, [refresh])
     
 
