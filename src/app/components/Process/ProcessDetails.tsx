@@ -26,7 +26,7 @@ const ProcessDetails = () => {
       title: "Review & Confirm Description",
       description:
         "Carefully double-check your inputs, and with a simple tap, confirm your transaction.",
-      delay: 0.8,
+      delay: 0.6,
     },
     {
       imgSrc: "processline4.svg",
@@ -34,7 +34,7 @@ const ProcessDetails = () => {
       title: "Instant Confirmation Description",
       description:
         "Get immediate confirmation of your payment or recharge - quick, easy, and hassle-free!",
-      delay: 1,
+      delay: 0.8,
     },
   ];
 
@@ -106,7 +106,7 @@ const AnimatedSection = ({
 
       <motion.div
         variants={index === 0 ? fadeIn("up", delay) : divVariants}
-        className={`absolute top-[100px] ${index % 2 === 0 ? "left" : "right"}-[50%] max-lg:hidden  `}
+        className={`absolute top-[100px]   ${index % 2 !== 0 ? "right-[50%]":"left-[50%]"}  max-lg:hidden  `}
         {...motionDivProps}
       >
         <img src={imgSrc} alt="" />
