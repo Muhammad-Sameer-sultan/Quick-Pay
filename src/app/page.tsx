@@ -1,3 +1,4 @@
+import { Content } from 'next/font/google'
 import AboutUs from './components/About-us/AboutUs'
 import CTA from './components/CTA/CTA'
 import Header from './components/Header/Header'
@@ -7,6 +8,8 @@ import BusinessGrid from './components/Offer/BusinessGrid'
 import Offer from './components/Offer/Offer'
 import Process from './components/Process/Process'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -17,9 +20,11 @@ export default function Home() {
    <Offer />
    <BusinessGrid />
    <AboutUs />
-   <Process />
+   <Process /> 
    <Testimonials />
    <CTA />
+   <Contact />
+   <Footer />
     </>
   )
 }
