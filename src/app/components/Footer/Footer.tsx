@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FooterColumn = ({ title, links }) => (
+const FooterColumn = ({ title, links }:{title: string,links: {url:string,label:string}[]}) => (
   <div className="col-span-1">
     {title && <span className="text-lg text-gray-800 font-bold">{title}</span>}
     <ul>
