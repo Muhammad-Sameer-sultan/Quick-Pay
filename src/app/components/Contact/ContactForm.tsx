@@ -10,7 +10,7 @@ const ContactForm = () => {
           <div className="flex flex-col gap-3 text-sm" >
                 <label className="text-[#3A3A3A] font-semibold">Name</label>
                 <input type="text" 
-                placeholder="Alogbe Rachael" 
+                placeholder="Muhammad Sameer" 
                 className="text-[#999999] w-[250px] h-[40px] py-3 px-[18px] border border-[#796E6E] rounded-[4px] outline-none focus:border-[#0045A5] focus:border-2 max-xlg:w-full"
                 
                 />
@@ -18,7 +18,7 @@ const ContactForm = () => {
            <div className="flex flex-col gap-3 text-sm" >
                 <label className="text-[#3A3A3A] font-semibold">Email</label>
                 <input type="email" 
-                placeholder="john@gmail.com" 
+                placeholder="sameer@gmail.com" 
                 className="text-[#999999] w-[250px] h-[40px] py-3 px-[18px] border border-[#796E6E] rounded-[4px] outline-none focus:border-[#0045A5] focus:border-2 max-xlg:w-full"
                 
                 />

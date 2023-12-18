@@ -23,7 +23,7 @@ const Contact = () => {
               </div>
               <div className="flex-col flex gap-1">
                 <span className="font-bold">Email Address</span>
-                <span>Jodanrovel@gmail.com</span>
+                <span>sameer@gmail.com</span>
               </div>
             </div>
             <div className="flex gap-[13px] text-[#565252] text-sm  ">
@@ -32,7 +32,7 @@ const Contact = () => {
               </div>
               <div className="flex-col flex gap-1">
                 <span className="font-bold">Call Us</span>
-                <span>(505) 555-0125</span>
+                <span>(+92) 3351332645</span>
               </div>
             </div>
             <div className="flex gap-[13px] text-[#565252] text-sm  ">
@@ -42,8 +42,8 @@ const Contact = () => {
               <div className="flex-col flex gap-1">
                 <span className="font-bold">Address</span>
                 <span>
-                  2972 Westheimer Rd. <br className="max-md:hidden" /> Santa
-                  Ana, Illinois 85486{" "}
+                  2972 Pakistan <br className="max-md:hidden" /> Sindh
+                  , Karachi 74600{" "}
                 </span>
               </div>
             </div>
